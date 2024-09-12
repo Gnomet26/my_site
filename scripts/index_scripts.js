@@ -1,6 +1,7 @@
 const pageSelect = document.getElementById('select_option');
 const pageFrame = document.getElementById('iframe_');
 const title_name = document.querySelector('title');
+const site_logo = document.getElementById('site_logo');
 
 pageSelect.addEventListener('change', function() {
     const selectedPage = this.value;
@@ -22,4 +23,10 @@ pageSelect.addEventListener('change', function() {
         pageFrame.src="templates/briefly_about_me.html";
         title_name.textContent = "Briefly about me 😎";
     }
+});
+
+site_logo.addEventListener('click',function() {
+    pageFrame.src="./templates/my_projects.html";
+    title_name.textContent = "My projects 🎯";
+    pageSelect.value = "0";
 });
