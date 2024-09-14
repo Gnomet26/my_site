@@ -1,0 +1,55 @@
+.block_post_bg{
+    background-color: rgb(51, 51, 51);
+    color: yellow;
+    width: 85%;
+    margin-left: 6%;
+    height: auto;
+    border: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: yellow;
+    margin-top: 35px;
+}
+
+.column_0{
+    background-color: rgb(51, 51, 51);
+    display: flex;
+}
+
+.post_img{
+    width: 200px;
+    height: 140px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.post_title{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    margin-top: 55px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.post_text{
+    width: auto;
+    height: 100px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.date{
+    width: 350px;
+    height: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}

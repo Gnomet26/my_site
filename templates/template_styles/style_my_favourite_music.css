@@ -36,7 +36,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 50px;
+    width: 110px;
     height: 50px;
     right: 20px;
     margin-top: 10px;
@@ -53,4 +53,24 @@
     border: 2px;
     border-color: yellow;
 
+}
+
+.play_and_download{
+    width: 45px;
+    height: 45px;
+    background-image: url('template_images/play.png');
+    background-size: cover;
+    cursor: pointer;
+    border: 2px;
+    border-color: yellow;
+}
+
+.pause{
+    width: 45px;
+    height: 45px;
+    background-image: url('template_images/pause.png');
+    background-size: cover;
+    cursor: pointer;
+    border: 2px;
+    border-color: yellow;
 }
