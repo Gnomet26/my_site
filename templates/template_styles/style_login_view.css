@@ -1,0 +1,101 @@
+.login_view{
+    background-color: rgb(91, 91, 91);
+    min-width: 100px;
+    min-height: 70px;
+    width: 450px;
+    height: 500px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: yellow;
+    align-items: center;
+    text-align: center;
+;
+}
+
+.image_{
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.user_name_label{
+    text-align: left;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.user_n_input{
+    width: 90%;
+    color: yellow;
+    background-color: rgb(91, 91, 91);
+    border: solid;
+    border-radius: 5px;
+    border-color: yellow;
+    border-width: 2px;
+    font-size: 30px;
+}
+
+.block{
+    margin-top: 10px;
+}
+
+.for_security{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.question{
+    width: 120px;
+    height: auto;
+    margin-right: 50px;
+}
+
+.equal{
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.answer{
+    width: 30%;
+    color: yellow;
+    background-color: rgb(91, 91, 91);
+    border: solid;
+    border-radius: 5px;
+    border-color: yellow;
+    border-width: 2px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.login_button_view{
+    width: 90%;
+    height: 50px;
+    border: solid;
+    border-radius: 10px;
+    border-color: yellow;
+    border-width: 2px;
+    margin-top: 30px;
+    background-color: rgb(91, 91, 91);
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.create_account_link{
+    margin-top: 15px;
+}
