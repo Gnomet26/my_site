@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="template_styles/style_create_account.css">
     <title>Create account </title>
 </head>
-<body style="background-color: rgb(61, 61, 61); display: flex;justify-content: center;align-items: center; height: auto;">
+<body onload="random_generator()" style="background-color: rgb(61, 61, 61); display: flex;justify-content: center;align-items: center; height: auto;">
     <div class="g_view">
         <div>
             <img class="site_logo" src="template_styles/template_images/for_login_view.png">
@@ -24,31 +24,33 @@
             <div class="f_user_n">Create password</div>
         </div>
         <div>
-            <input type="password" maxlength="20" id="user_name" class="for_input">
+            <input type="password" maxlength="20" id="user_password" class="for_input">
         </div>
         <div style="display: flex;">
             <div class="f_user_n">Repeat the password</div>
         </div>
         <div>
-            <input type="password" maxlength="20" id="user_name" class="for_input">
+            <input type="password" maxlength="20" id="repeat_password" class="for_input">
         </div>
         <div style="display: flex;">
             <div class="f_user_n">Your gmail adress</div>
         </div>
         <div>
-            <input type="email" maxlength="100" id="user_name" class="for_input">
+            <input type="email" maxlength="100" id="user_email" class="for_input">
         </div>
         <div class="for_security">
-            <img class="question" src="template_styles/template_images/q1.png">
+            <img id="question" class="for_q4">
             <div class="equal">=</div>
-            <input maxlength="2" class="answer">
+            <input maxlength="2" class="answer" id="answer_">
         </div>
         <div class="for_button">
-            <button class="login_button_view">Create account</button>
+            <button class="login_button_view" onclick="create_account_f()">Create account</button>
         </div>
         <div class="create_account">
             <a class="create_account_link" target="_self" href="login_view.html">Login view</a>
         </div>
     </div>
+
+    <script src="template_scripts/script_create_account_view.js"></script>
 </body>
 </html>
