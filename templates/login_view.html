@@ -11,24 +11,26 @@
         <img class="image_" src="template_styles/template_images/for_login_view.png">
         <div class="user_name_label">User name</div>
         <div class="block">
-            <input class="user_n_input" id="user_n_input">
+            <input class="user_n_input" id="user_n_input" maxlength="20">
         </div>
 
         <div class="user_name_label">User password</div>
         <div class="block">
-            <input class="user_n_input" id="parol_n_input">
+            <input class="user_n_input" id="parol_n_input" maxlength="20" type="password">
         </div>
 
         <div class="for_security">
             <img class="question" src="template_styles/template_images/q1.png">
             <div class="equal">=</div>
-            <input class="answer">
+            <input maxlength="2" class="answer">
         </div>
 
         <div class="for_button">
             <button class="login_button_view">Log in</button>
-            
-            <a class="create_account_link" href="">Create account</a>
+        </div>
+
+        <div class="create_account">
+            <a class="create_account_link" target="_self" href="create_account.html">Create account</a>
         </div>
     </div>
 </body>

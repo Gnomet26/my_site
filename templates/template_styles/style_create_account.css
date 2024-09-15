@@ -1,49 +1,54 @@
-.login_view{
-    background-color: rgb(91, 91, 91);
-    min-width: 100px;
-    min-height: 70px;
+.g_view{
+    background-color: rgb(91 ,91, 91);
     width: 450px;
-    height: 500px;
+    height: auto;
     border: solid;
-    border-width: 2px;
     border-radius: 10px;
     border-color: yellow;
-    align-items: center;
+    border-width: 2px;
     text-align: center;
-;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 
-.image_{
-    width: 250px;
+.site_logo{
+    width: 90%;
     height: auto;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
-.user_name_label{
-    text-align: left;
+.title_{
     color: yellow;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 20px;
-    padding-left: 20px;
-    margin-top: 30px;
+    font-size: 24px;
+    margin-top: 20px;
 }
 
-.user_n_input{
-    width: 90%;
+.f_user_n{
     color: yellow;
-    background-color: rgb(91, 91, 91);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.for_input{
+    color: yellow;
+    background-color: rgb(91 ,91, 91);
     border: solid;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: yellow;
     border-width: 2px;
-    font-size: 20px;
+    width: 90%;
+    height: 50px;
+    font-size: 24px;
     text-align: left;
-    padding: 5px;
-}
-
-.block{
-    margin-top: 10px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
 }
 
 .for_security{
@@ -103,6 +108,7 @@
     margin-left: 20px;
     color: yellow;
     font-size: 18px;
+    margin-bottom: 30px;
 }
 
 .create_account{
