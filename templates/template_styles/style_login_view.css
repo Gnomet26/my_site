@@ -109,3 +109,68 @@
     margin-top: 15px;
     display: flex;
 }
+
+.for_q1{
+    background-image: url('template_images/q1.png');
+    width: 120px;
+    height: auto;
+    margin-right: 50px;
+    background-size: cover;
+    background-position: center;
+}
+.for_q2{
+    background-image: url('template_images/q2.png');
+    width: 120px;
+    height: auto;
+    margin-right: 50px;
+    background-size: cover;
+    background-position: center;
+}
+.for_q3{
+    background-image: url('template_images/q3.png');
+    width: 120px;
+    height: auto;
+    margin-right: 50px;
+    background-size: cover;
+    background-position: center;
+}
+.for_q4{
+    background-image: url('template_images/q4.png');
+    width: 120px;
+    height: auto;
+    margin-right: 50px;
+    background-size: cover;
+    background-position: center;
+}
+.for_q5{
+    background-image: url('template_images/q5.png');
+    width: 120px;
+    height: auto;
+    margin-right: 50px;
+    background-size: cover;
+    background-position: center;
+}
+.for_q6{
+    background-image: url('template_images/q6.png');
+    width: 120px;
+    height: auto;
+    margin-right: 50px;
+    background-size: cover;
+    background-position: center;
+}
+.for_q7{
+    background-image: url('template_images/q7.png');
+    width: 120px;
+    height: auto;
+    margin-right: 50px;
+    background-size: cover;
+    background-position: center;
+}
+.for_q8{
+    background-image: url('template_images/q8.png');
+    width: 120px;
+    height: auto;
+    margin-right: 50px;
+    background-size: cover;
+    background-position: center;
+}

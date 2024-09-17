@@ -1,5 +1,6 @@
 .global{
     background-color: rgb(66, 66, 66);
+    overflow-x: hidden;
     
 }
 
@@ -59,4 +60,5 @@
     background-color: rgb(51, 51, 51);
     width: 98vw;
     height: 88vh;
+    overflow: hidden;
 }

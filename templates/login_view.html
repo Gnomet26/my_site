@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="template_styles/style_login_view.css">
     <title>Its my life LogIn 🔑</title>
 </head>
-<body style="background-color: rgb(61, 61, 61); display: flex;justify-content: center;align-items: center; margin: 0;height: 100%;">
+<body onload="random_generator()" style="background-color: rgb(61, 61, 61); display: flex;justify-content: center;align-items: center; margin: 0;height: 100%;">
     <div class="login_view">
         <img class="image_" src="template_styles/template_images/for_login_view.png">
         <div class="user_name_label">User name</div>
         <div class="block">
-            <input class="user_n_input" id="user_n_input" maxlength="20">
+            <input class="user_n_input" id="name_n_input" maxlength="20">
         </div>
 
         <div class="user_name_label">User password</div>
@@ -20,18 +20,20 @@
         </div>
 
         <div class="for_security">
-            <img class="question" src="template_styles/template_images/q1.png">
+            <img id="question" class="for_q4">
             <div class="equal">=</div>
-            <input maxlength="2" class="answer">
+            <input id="answer" maxlength="2" class="answer">
         </div>
 
         <div class="for_button">
-            <button class="login_button_view">Log in</button>
+            <button class="login_button_view" onclick="log_in_f()">Log in</button>
         </div>
 
         <div class="create_account">
             <a class="create_account_link" target="_self" href="create_account.html">Create account</a>
         </div>
     </div>
+
+    <script src="template_scripts/script_login_view.js"></script>
 </body>
 </html>

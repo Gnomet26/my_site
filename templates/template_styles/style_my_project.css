@@ -8,6 +8,7 @@
     border-width: 1px;
     border-color: yellow;
     display: flex;
+    justify-content: space-between;
     background-color: rgb(61, 61, 61);
 }
 .project_logo{
@@ -35,4 +36,16 @@
     font-size: 14px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight:initial;
+}
+
+.open_project{
+    background-image: url('template_images/open_project.png');
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    margin-top: 15px;
+    margin-right: 15px;
+    border: solid;
+    border-radius: 50%;
+    border-color: rgb(61, 61, 61);
 }
