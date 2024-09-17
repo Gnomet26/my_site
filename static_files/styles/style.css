@@ -52,7 +52,7 @@
 .content_block{
     background-color: rgb(66, 66, 66);
     margin-top: 10px;
-    overflow: hidden;
+    
     
 }
 
@@ -60,5 +60,4 @@
     background-color: rgb(51, 51, 51);
     width: 98vw;
     height: 88vh;
-    overflow: hidden;
 }
