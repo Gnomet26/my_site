@@ -6,24 +6,18 @@
     <title>About this project</title>
     <link rel="stylesheet" href="template_styles/style_project_view.css">
 </head>
-<body>
+<body onload="load_f()" id="g_layout">
     <div class="for_icon_and_title">
         <div style="display: flex;">
-            <img class="project_icon" src="template_styles/template_images/github.png">
-            <div class="project_title">Vampires in the shadows</div>
+            <img id="project_icon" class="project_icon" src="template_styles/template_images/github.png">
+            <div id="project_title" class="project_title">Vampires in the shadows</div>
         </div>
         <div>
-            <button class="download_project_code">Download .zip</button>
+            <button id="download_btn" class="download_project_code">Download .zip</button>
         </div>
     </div>
 
-    <div class="project_working_test_images">
-        <img class="project_images" src="template_styles/template_images/test.png">
-        <img class="project_images" src="template_styles/template_images/test.png">
-        <img class="project_images" src="template_styles/template_images/test.png">
-        <img class="project_images" src="template_styles/template_images/test.png">
-        <img class="project_images" src="template_styles/template_images/test.png">
-    </div>
+    <div id="img_list" class="project_working_test_images"></div>
 
     <div id="about_" class="project_about">
         Live as a vampire lord in Game of Vampires, an epic and enigmatic RPG saga! Take Dracula's castle, sit on the throne and rule over a secret kingdom filled with famous vampires, werewolves, and witches. Meet powerful and handsome immortals, make alliances with other vampires, and clash with fairytale monsters! You are the lord of twilight... so what will you do in the shadows?
